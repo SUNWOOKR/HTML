@@ -1,13 +1,7 @@
-const mon = "mon";
-const tue = "tue";
-const wed = "wed";
-const thu = "thu";
-const fri = "fri";
-const sat = "sat";
-const sun = "sun";
+const daysOfWeek = ["mon" , "tue" , "wed" , "thu" , "fri" , "sat"];
 
-const daysOfWeek = [mon , tue , wed , thu , fri , sat , sun];
+console.log(daysOfWeek);
 
-const nonsense = [1, 2, "hello", false, null, true, undefined, "nico"];
+daysOfWeek.push("sun");
 
-console.log(daysOfWeek, nonsense);
+console.log(daysOfWeek);
